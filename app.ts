@@ -16,3 +16,5 @@ app.use(placeRouter.allowedMethods());
 
 console.log(`Listening on port ${PORT}`);
 await app.listen(`${HOST}:${PORT}`); 
+
+//deno run --allow-env --allow-net --allow-write --allow-read --allow-plugin --unstable app.ts
